@@ -1,2 +1,14 @@
-# GitGPT
-A beginner-friendly interactive CLI that lets you use Git with simple, natural language instead of complex commands. Learn Git by doing, with an LLM translating your instructions (like "save my work" or "undo that last change") directly into correct Git actions. Stop memorizing, start collaborating.
+# GitGPT: Natural Language to Git CLI
+
+This tool translates plain English commands into `git` commands, explains them, and offers to execute them for you. It uses the OpenAI API (which now powers models like the one that replaced Codex) to understand your requests.
+
+## Setup Instructions
+
+**1. Clone/Create the Project**
+
+Create the project directory:
+
+```bash
+mkdir gitgpt-cli
+cd gitgpt-cli
+# ... create all the files listed in the guide ...
