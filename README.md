@@ -8,7 +8,7 @@ This tool translates plain English commands into `git` commands, explains them, 
 
 Create the project directory:
 
-```bash
-mkdir gitgpt-cli
-cd gitgpt-cli
-# ... create all the files listed in the guide ...
+Download all the files
+Create gitgpt directory and add the files in the gitgpt branch to it
+Go to the directory and pip install -e.
+Your gitgpt is ready
