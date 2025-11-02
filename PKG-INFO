@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: gitgpt
+Version: 0.1.0
+Summary: A natural language to git command translator.
+Author-email: Your Name <your@email.com>
+Project-URL: Homepage, https://github.com/YOUR_USERNAME/gitgpt-cli
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: google-generativeai
+Requires-Dist: python-dotenv
+Requires-Dist: questionary
+Requires-Dist: rich
+
+# GitGPT: Natural Language to Git CLI
+
+This tool translates plain English commands into `git` commands, explains them, and offers to execute them for you. It uses the OpenAI API (which now powers models like the one that replaced Codex) to understand your requests.
+
+## Setup Instructions
+
+**1. Clone/Create the Project**
+
+Create the project directory:
+
+```bash
+mkdir gitgpt-cli
+cd gitgpt-cli
+# ... create all the files listed in the guide ...
