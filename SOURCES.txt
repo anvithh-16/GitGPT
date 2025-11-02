@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+gitgpt/__init__.py
+gitgpt/api_client.py
+gitgpt/executor.py
+gitgpt/main.py
+gitgpt/prompts.py
+gitgpt.egg-info/PKG-INFO
+gitgpt.egg-info/SOURCES.txt
+gitgpt.egg-info/dependency_links.txt
+gitgpt.egg-info/entry_points.txt
+gitgpt.egg-info/requires.txt
+gitgpt.egg-info/top_level.txt
